@@ -8,7 +8,4 @@ on:
 jobs:
   autonomous-sdlc:
     uses: taylor-curran/autonomous-sdlc-platform/.github/workflows/autonomous-sdlc.yml@main
-    with:
-      java_version: '17'
-      build_command: './gradlew classes -x test'
     secrets: inherit
